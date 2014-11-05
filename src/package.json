@@ -1,6 +1,6 @@
 {
   "name": "tl-collapse-checkbox",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Collapse checkbox directive for Angular.js",
   "main": "collapseCheckbox.js",
   "directories": {

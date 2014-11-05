@@ -1,6 +1,6 @@
 {
   "name": "ng-collapse-checkbox",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "authors": [
     "Rinat Mullayanov <nutsgamedev@gmail.com>",
     "Alexander Konyshev"
@@ -14,9 +14,7 @@
   "ignore": [
     "node_modules",
     "bower_components",
-    "src/bower_components",
-    "test",
-    "tests"
+    "src/bower_components"
   ],
   "dependencies": {
     "angular": ">=1.2.26",
