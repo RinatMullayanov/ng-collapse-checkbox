@@ -1,0 +1,23 @@
+<div class="row" ng-if="input.length > 0">
+  <div class="row">
+    <label class="col-sm-12 control-label control-label_left-align status__label">
+      <div ng-click="isStateCollapsed = !isStateCollapsed">
+        <span ng-if="!isStateCollapsed" class="glyphicon glyphicon-chevron-down"></span>
+        <span ng-if="isStateCollapsed" class="glyphicon glyphicon-chevron-right"></span>
+        <span class="status__label-text">{{collapseHeader}}</span>
+      </div>
+    </label>
+  </div>
+
+  <div class="row">
+    <div id="status" class="col-sm-11 col-sm-offset-1">
+      <div collapse="isStateCollapsed">
+        <div class="checkbox" ng-repeat="item in input">
+          <label>
+            <input type="checkbox" ng-model="item.checked">{{item.name}}
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

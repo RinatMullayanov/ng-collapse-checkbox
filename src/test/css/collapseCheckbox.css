@@ -1,0 +1,12 @@
+.control-label_left-align {
+  text-align: left !important;
+  color: #000;
+}
+.status__label {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.status__label-text {
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+}
